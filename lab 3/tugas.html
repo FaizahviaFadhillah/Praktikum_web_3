@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" type="text/css">
+
+    <title>tugas</title>
+</head>
+<body>
+    
+    <header>
+       <h1>Membuat Form</h1>
+    </header>
+
+<form action="proses.php" method="post">
+    <fieldset>
+        <legend>Data Survey NCTzen</legend>
+        <p>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama">
+        </p>
+        <p>
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <input id="jk_l" type="radio" name="kelamin" value="L" /><label
+for="jk_l">Laki-laki</label>
+            <input id="jk_p" type="radio" name="kelamin" value="P" /><label
+
+for="jk_p">Perempuan</label>
+        </p>
+
+        <p>
+            <label for="pilihan">Lagu Nct Dream Dalam Album ISTJ Terfavorit</label>
+            <select id="pilihan" name="pilihan">
+                <option value="opsi1">Starry Night</option>
+                <option value="opsi2">Pretzel (♡)</option>
+                <option value="opsi3">Yogurt Shake</option>
+                <option value="opsi4">Like We Just Met</option>
+                <option value="opsi5">SOS</option>
+                <option value="opsi6">Poison</option>
+                <option value="opsi7">ISTJ</option>
+                <option value="opsi8">Broken Melodies</option>
+                <option value="opsi9">Blue Wave</option>
+                <option value="opsi10">Skateboard</option>
+            </select>
+        </p>
+
+        <p>
+        <label for="pilihan-multiple">Member Nct Dream Terfavorit</label>
+        <select id="pilihan-multiple" name="pilihan-multiple" multiple>
+            <option value="opsiA">Mark Lee</option>
+            <option value="opsiB">Huang Renjun</option>
+            <option value="opsiC">Lee Jeno</option>
+            <option value="opsiD">Lee Haechan</option>
+            <option value="opsiE">Na Jaemin</option>
+            <option value="opsiF">Zhong Chenle</option>
+            <option value="opsiG">Park Jisung</option>
+        </select>
+        </p>
+
+        <p><input type="submit" value="Kirim"></p>
+    </fieldset>
+</form>
+
+</body>
+</html>
