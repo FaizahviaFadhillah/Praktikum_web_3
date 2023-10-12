@@ -257,4 +257,4 @@
 
     Output :
 
-    ![img.9](gambar/9.png)
+![img.9](gambar/9.png)
